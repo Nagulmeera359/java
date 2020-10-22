@@ -57,7 +57,7 @@ class Invoice{
 public class Experiment_1{
          public static void main(String []args){
                    Invoice myInvoice;
-                   myInvoice = new Invoice("19BQ1A05L5", "My First Invoice :)", 5, 2.0);
+                   myInvoice = new Invoice("19BQ1A05K6", "My First Invoice :)", 5, 2.0);
                    myInvoice.setPrice(5.0);
                    System.out.println("Number: " + myInvoice.getNumber());
                    System.out.println("Descriptio: " + myInvoice.getDescription());
